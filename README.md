@@ -33,12 +33,12 @@ Filters `t`, `te`, `tc` equal to `$t`, `$te`, `$tc` in `vue-i18n`
 
 ### Why use filter
 
-```
+```vue.js
 {{ $t('message.hello') | cap }}
 ```
 
 *v.s*
 
-```
+```vue.js
 {{ 'message.hello' | t | cap }}
 ```
